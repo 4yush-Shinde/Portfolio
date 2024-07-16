@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff44001f;
+    background-image: url('Images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    backdrop-filter: blur(10px);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 7px;
+    margin-left: 7px;
+    margin-top: 6px;
+    width: 99%;
+}
+
+nav {
+    /* margin: 20px 0; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+.gmail {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+nav button {
+    color: #333;
+    background-color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    
+}
+
+nav button:hover {
+    background-color: #333333b2;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+nav button:active {
+    transform: scale(0.8);
+    transition-duration: 0.2s;
+    background-color: #000000;
+}
+
+
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+    object-fit: cover;
+} */
+ 
+
+.profile-pic {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    /* margin-left: -1100px;
+    margin-top: -100px; */
+}
+
+#flippable {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-container {
+    perspective: 1000px;
+    width: 350px;  
+    height: 350px; 
+}
+
+.flip-container:hover #flippable {
+    transform: rotateY(360deg);
+}
+
+
+.intro0 {
+    color: rgba(255, 0, 0, 0.633);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -440px;
+    font-size: 3.3rem;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 950px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    flex-direction: column;
+    text-align: center; 
+}
+
+
+.intro2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -120px;
+    font-size: 1.3rem;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 930px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.intro3 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 1.3rem;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 950px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.intro4 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    font-size: 1.7rem;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -850px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+section {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #eee;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+/* footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 7px;
+    margin-left: 7px;
+    margin-bottom: 6px;
+    width: 99%;
+} */
+
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    width: 100%;
+    position: sticky;
+    /* position: fixed; */
+    /* bottom: 0; */
+    flex-shrink: 0;
+    margin-bottom: 6px;
+    margin-top: -20px;
+}
+
+
+.translucent-footer {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 96.5%;
+    justify-content: center;
+    align-self: center;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-bottom: 7px;
+}
+
+.logo {
+    padding: 2px;
+}
+.logo #linkedin  {
+    margin-bottom: 7px;
+    margin-left: 20px;
+   
+}
+
+.logo #github:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    
+}
+
+.logo #linkedin:hover {
+    transform: scale(1.15);
+    transition-duration: 0.2s;
+    
+}
+
+.logo #github:active {
+    transform: scale(0.8);
+    
+}
+
+.logo #linkedin:active {
+    transform: scale(0.8);
+    
+}
